@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  coredev:
+    image: coredev
+    build:
+      context: .
+    working_dir: /app
+    volumes:
+      - "..:/app"
+    command: sleep infinity

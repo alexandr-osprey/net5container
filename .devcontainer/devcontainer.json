@@ -1,0 +1,17 @@
+{
+    "name": "Core dev",
+    "dockerComposeFile": [
+        "./docker-compose.yml"
+    ],
+    "service": "coredev",
+    "workspaceFolder": "/app",
+    "shutdownAction": "stopCompose",
+    "settings": { 
+        "omnisharp.useModernNet": false,
+        "omnisharp.path": ""
+    },
+    "extensions": [
+        "ms-dotnettools.csharp@1.25.2",
+        "josefpihrt-vscode.roslynator",
+    ]
+}
